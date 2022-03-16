@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Siguiendo est ejemplo, crea ua aplicación con un texto rojo y que al clicar el botón se ponga verde y así alternativamente-->
+  <title>Pagina cine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/funciones.js"></script>
+</head>
+<body onload="array();">
+ <input type="text" placeholder="Pon el nombre" id="titulo" onblur="mostrarCampos()">
+Peliculas <select id="pelicula"></select>
+
+<input type="button" onclick="validar();" value="ENVIAR">
+
+</body>
+</html>
